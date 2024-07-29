@@ -1,0 +1,32 @@
+/* CategoriesStyles.css */
+
+.category-container {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .category-container:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category-link {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .category-link:hover {
+    background-color: #007bff;
+    color: #fff;
+    transform: translateY(-3px); /* Move the link up slightly on hover */
+  }
+  

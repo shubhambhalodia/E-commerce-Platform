@@ -1,0 +1,41 @@
+/* CartPage.module.css */
+
+.cartContainer {
+  font-family: 'Arial', sans-serif;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #007bff;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+.cartItem {
+  border-radius: 15px;
+}
+
+.productImage {
+  border-radius: 15px 0 0 15px;
+}
+
+.productTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.removeButton {
+  font-size: 1rem;
+}
+
+.summaryCard {
+  border-radius: 15px;
+}
+
+.summaryTitle {
+  font-size: 2rem;
+  font-weight: bold;
+}

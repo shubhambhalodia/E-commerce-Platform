@@ -1,0 +1,73 @@
+/* CategoryProductStyles.css */
+
+.card {
+  margin: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.btn-primary, .btn-secondary {
+  font-size: 0.8rem;
+  padding: 0.4rem 0.8rem;
+  margin: 0.2rem;
+}
+
+.btn-secondary {
+  display: flex;
+  align-items: center;
+}
+
+.btn-secondary i {
+  margin-right: 0.5rem;
+}
+
+.text-center h4 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.text-center h6 {
+  font-size: 1.25rem;
+  color: #666;
+}
+
+.container {
+  padding: 0 2rem;
+}
+
+@media (max-width: 768px) {
+  .text-center h4 {
+    font-size: 1.5rem;
+  }
+
+  .text-center h6 {
+    font-size: 1.25rem;
+  }
+
+  .btn-primary, .btn-secondary {
+    font-size: 0.7rem;
+    padding: 0.3rem 0.6rem;
+  }
+}
